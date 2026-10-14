@@ -1,0 +1,10 @@
+Detection and recognition models are ONNX exports published by RapidAI/RapidOCR
+(converted from PaddleOCR):
+
+- det.onnx: ch_PP-OCRv5_det_mobile
+- rec_eslav.onnx: eslav_PP-OCRv5_rec_mobile (Russian, Ukrainian, Belarusian, English, digits)
+- dict_eslav.txt: matching character dictionary
+
+PaddleOCR models are distributed under the Apache License 2.0.
+RapidOCR packaging follows that upstream license.
+This plugin itself is GPL-3.0 because it links with QuickLook.

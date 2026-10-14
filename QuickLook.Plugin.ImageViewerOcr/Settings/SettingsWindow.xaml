@@ -1,0 +1,17 @@
+<Window x:Class="QuickLook.Plugin.ImageViewerOcr.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Распознавание текста"
+        SizeToContent="WidthAndHeight"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False">
+    <StackPanel Margin="16" MinWidth="280">
+        <CheckBox x:Name="EnabledBox" Content="Распознавать текст" />
+        <TextBlock Margin="0,12,0,4" Text="Движок" />
+        <ComboBox x:Name="EngineBox" />
+        <CheckBox x:Name="RussianBox" Margin="0,12,0,0" Content="Русский (системный OCR)" />
+        <CheckBox x:Name="EnglishBox" Margin="0,8,0,0" Content="Английский (системный OCR)" />
+        <Button Margin="0,16,0,0" HorizontalAlignment="Right" Padding="16,6" Content="Сохранить" Click="Save_Click" />
+    </StackPanel>
+</Window>

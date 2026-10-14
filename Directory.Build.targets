@@ -1,0 +1,6 @@
+<Project>
+  <!-- QuickLook.Common runs a version script that is not part of this plugin. -->
+  <PropertyGroup>
+    <PreBuildEvent />
+  </PropertyGroup>
+</Project>
