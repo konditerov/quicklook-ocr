@@ -11,6 +11,8 @@ A [QuickLook](https://github.com/QL-Win/QuickLook) plugin: the picture opens imm
 
 If it saves you time, please [star the repository](https://github.com/konditerov/quicklook-ocr/stargazers).
 
+![Пробел, выделение текста и вставка в редактор](docs/demo.gif)
+
 | | |
 | --- | --- |
 | Автор / Author | [Ilia Konditerov](https://github.com/konditerov) |
