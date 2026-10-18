@@ -38,6 +38,7 @@ Desktop.ini
 # Local notes, samples and agent tooling
 plan/
 TASK.md
+TODO.md
 user tests/
 .agents/
 skills-lock.json
