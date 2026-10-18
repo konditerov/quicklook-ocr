@@ -11,7 +11,7 @@
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>Ilia Konditerov</Authors>
     <Copyright>Copyright © 2026 Ilia Konditerov</Copyright>
     <Description>Выделение и копирование текста на изображениях в QuickLook.</Description>

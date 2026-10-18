@@ -17,7 +17,7 @@ If it saves you time, please [star the repository](https://github.com/konditerov
 | --- | --- |
 | Автор / Author | [Ilia Konditerov](https://github.com/konditerov) |
 | Дата / Date | 15 октября 2026 / 15 October 2026 |
-| Версия / Version | 0.1.0 |
+| Версия / Version | 0.1.1 |
 | Лицензия / License | [GPL-3.0](LICENSE) |
 
 [Русский](#русский) · [English](#english)
