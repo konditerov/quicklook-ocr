@@ -16,16 +16,16 @@
         </ContextMenu>
     </UserControl.ContextMenu>
     <Grid x:Name="Viewport" ClipToBounds="True" SizeChanged="Viewport_SizeChanged">
-        <Grid x:Name="World">
-            <Grid.RenderTransform>
+        <Canvas x:Name="World" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Canvas.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform x:Name="Scale" />
                     <TranslateTransform x:Name="Translate" />
                 </TransformGroup>
-            </Grid.RenderTransform>
+            </Canvas.RenderTransform>
             <Image x:Name="Photo" Stretch="Fill" />
             <Canvas x:Name="Words" />
-        </Grid>
+        </Canvas>
         <Canvas IsHitTestVisible="False">
             <Rectangle x:Name="Band"
                        Fill="#330050C8"
